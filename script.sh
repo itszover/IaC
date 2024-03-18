@@ -11,9 +11,9 @@ groupadd GRP_SEC
 useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_ADM 
 useradd joao -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_ADM 
 useradd maria -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_ADM
-tuseradd debora -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
-ustradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
-useratd roberto -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_tEN
+useradd debora -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
+useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
+useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_tEN
 
 useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_SEC 
 useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_SEC 

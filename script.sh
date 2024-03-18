@@ -1,5 +1,8 @@
 #!/bin/bash
-mkdir /public /adm /ven /sec
+mkdir /public
+mkdir /adm
+mkdir /ven
+mkdir /sec
 
 groupadd GRP_ADM 
 groupadd GRP_VEN

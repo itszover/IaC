@@ -13,7 +13,7 @@ useradd joao -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_ADM
 useradd maria -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_ADM
 useradd debora -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
 useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN 
-useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_tEN
+useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_VEN
 
 useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_SEC 
 useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt password123) -g GRP_SEC 
